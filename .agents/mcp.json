@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "pencil": {
+            "command": "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+            "args": [
+                "--app",
+                "desktop"
+            ],
+            "env": {}
+        },
+        "data-agent-kit": {
+            "command": "node",
+            "args": [
+                "/Users/cc/.antigravity-ide/extensions/googlecloudtools.datacloud-1.0.0-universal/mcp_servers/cli/mcp_proxy_bundle.js",
+                "dataAgentKit-antigravityide"
+            ]
+        }
+    }
+}
